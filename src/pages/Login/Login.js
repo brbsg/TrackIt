@@ -53,6 +53,7 @@ export default function Login() {
       <Input
         disabled={load}
         placeholder="senha"
+        type="password"
         onChange={(e) => {
           setUser({ ...user, password: e.target.value });
         }}

@@ -28,10 +28,9 @@ export default function Today({ getProgress }) {
       )
       .then((res) => {
         setHabits(res.data);
-        console.log(res.data);
       })
       .catch();
-  }, [user, update]);
+  }, [user, update, habits]);
 
   useEffect(() => {
     let count = 0;
