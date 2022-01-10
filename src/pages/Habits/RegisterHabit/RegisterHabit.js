@@ -36,10 +36,10 @@ export default function RegisterHabit({ show, setShowRegister }) {
           habit,
           { headers: { Authorization: `Bearer ${user.token}` } }
         )
-        .then((response) => setHabit({}))
+        .then((response) => {})
         .catch();
     }
-  }, [user]);
+  }, [habit, user]);
 
   return (
     <Container style={{ display: show ? "inherit" : "none" }}>

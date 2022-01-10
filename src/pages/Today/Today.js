@@ -56,7 +56,13 @@ export default function Today({ getProgress }) {
 
       <Title>
         {weekdays[dayjs().day()]}, {dayjs().format("DD/MM")}
-        <p>Nenhum hábito concluído ainda</p>
+        {progress > 0 ? (
+          <p style={{ color: "#8FC549" }}>
+            {Math.ceil(progress)}% dos hábitos concluídos
+          </p>
+        ) : (
+          <p>Nenhum hábito concluído ainda</p>
+        )}
       </Title>
 
       {habits.map((element, index) => {
