@@ -11,12 +11,6 @@ First time using libs like ```react-circular-progressbar``` and ```dayjs```!
 - [How to run](#how-to-run)
 - [Author](#author)
 
-## Overview
-
-<div align='center'>
-  <img style='ustify-content: center' src='/src/assets/img/TrackIt.gif' />
-</div>
-
 <br />
 
 
@@ -80,4 +74,6 @@ npm run build
 
 ## Author
 
+- LinkedIn - [Gustavo Barbosa](linkedin.com/in/gustavo-barbosa-01a21222b/)
+- Gmail - [gustavobarbosa7162@gmail.com](mailto:gustavobarbosa7162@gmail.com)
 
